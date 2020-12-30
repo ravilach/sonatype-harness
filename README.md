@@ -30,7 +30,7 @@ sudo docker pull webgoat/webgoat-8.0
 sudo docker save webgoat/webgoat-8.0:latest > webgoat-8.0.tar
 java -jar ~/nexus-cli/nexus-iq-cli.jar -i ${workflow.variables.nexusiqappid} -s http://mynexus:8070 -a ${secrets.getValue("nexusiq_user")}:${secrets.getValue("nexusiq_password")} -t build webgoat-8.0.tar
 ```
-The `{workflow.variables.nexusiqappid}` accesses a Workflow Variable e.g prompting for a Nexus App ID. 
+The `${workflow.variables.nexusiqappid}` accesses a Workflow Variable e.g prompting for a Nexus App ID. 
 The `${secrets.getValue("nexusiq_user")}` acccesses a value in the Harness Secrets Manager e.g your Nexus User ID. 
 
 ## Further Material
