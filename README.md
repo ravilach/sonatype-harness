@@ -38,7 +38,7 @@ The `${secrets.getValue("nexusiq_user")}` acccesses a value in the Harness Secre
 * CentOS-Prep.sh: Installs pre-reqs into a CentOS instance. 
 * Install-IQ.sh: Installs Nexus IQ into a CentOS instance. 
 * Install-IQ-CLI.sh: Installs Nexus IQ CLI into a CentOS instance. 
-* Harness-Scan-Template: Shell file to be calledd from Harness using a Workflow Variable and Secrets Manager. 
+* Harness-Scan-Template: Shell file to be called from Harness using a Workflow Variable and Secrets Manager. 
 * harness-Interpret-Scan.sh: Shell file to be called from Harness parsing scan report and looking for violations which can be set as a Workflow Variable. 
 
 ## Further Material
