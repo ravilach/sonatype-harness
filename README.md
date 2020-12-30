@@ -33,6 +33,14 @@ java -jar ~/nexus-cli/nexus-iq-cli.jar -i ${workflow.variables.nexusiqappid} -s 
 The `${workflow.variables.nexusiqappid}` accesses a Workflow Variable e.g prompting for a Nexus App ID. 
 The `${secrets.getValue("nexusiq_user")}` acccesses a value in the Harness Secrets Manager e.g your Nexus User ID. 
 
+## Use
+
+* CentOS-Prep.sh: Installs pre-reqs into a CentOS instance. 
+* Install-IQ.sh: Installs Nexus IQ into a CentOS instance. 
+* Install-IQ-CLI.sh: Installs Nexus IQ CLI into a CentOS instance. 
+* Harness-Scan-Template: Shell file to be calledd from Harness using a Workflow Variable and Secrets Manager. 
+* harness-Interpret-Scan.sh: Shell file to be called from Harness parsing scan report and looking for violations which can be set as a Workflow Variable. 
+
 ## Further Material
 * Harness Blog: https://harness.io/blog/devops/vulnerability-scanning-ci-cd-pipeline/
 * Harness Video: https://www.youtube.com/watch?v=WFjDN7dpeXk&feature=youtu.be
