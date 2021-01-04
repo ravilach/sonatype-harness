@@ -42,5 +42,7 @@ The `${secrets.getValue("nexusiq_user")}` acccesses a value in the Harness Secre
 * harness-Interpret-Scan.sh: Shell file to be called from Harness parsing scan report and looking for violations which can be set as a Workflow Variable. 
 
 ## Further Material
-* Harness Blog: https://harness.io/blog/devops/vulnerability-scanning-ci-cd-pipeline/
-* Harness Video: https://www.youtube.com/watch?v=WFjDN7dpeXk&feature=youtu.be
+* Harness Blog Part One: https://harness.io/blog/devops/vulnerability-scanning-ci-cd-pipeline/
+* Harness Blog Part Two (Interpreting): https://harness.io/blog/devops/automated-vulnerability-scanning-ci-cd-pipeline/
+* Harness Video Part One: https://www.youtube.com/watch?v=WFjDN7dpeXk&feature=youtu.be
+* Harness Video Part Two (Interpreting): https://www.youtube.com/watch?v=t5avv7ZNJJc&feature=youtu.be
